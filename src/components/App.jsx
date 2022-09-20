@@ -1,16 +1,14 @@
+import { Profile } from "./Profile/Profile";
+import user from "components/user.json"
+const { username, tag, location, avatar, stats } = user;
+// console.log(username)
+// console.log(user.tag)
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Profile   username={username}
+  tag={tag}
+  location={location}
+  avatar={avatar}
+  stats={stats}/>
   );
 };
