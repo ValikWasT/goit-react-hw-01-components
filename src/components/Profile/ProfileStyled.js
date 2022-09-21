@@ -1,19 +1,21 @@
 import styled from 'styled-components';
-export const ProfileContainer = styled.div``;
+export const ProfileContainer = styled.div`
+  width: 200px;
+`;
 export const UserContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   margin: 0 auto;
-  width: 600px;
-  height: 900px;
-  font-size: 36px;
+  width: 200px;
+  height: 300px;
+  font-size: 12px;
 `;
 export const StatsContainer = styled.ul`
   display: flex;
-  justify-content: space-between;
-  font-size 24px;
+  justify-content: space-around;
+  font-size 8px;
   padding: 0;
 `;
 export const StatsItem = styled.li`
