@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { space, color, layout, border, typography } from 'styled-system';
+import { space, color, layout, border } from 'styled-system';
 export const FriendItem = styled.li`
   width: 200px;
   display: flex;

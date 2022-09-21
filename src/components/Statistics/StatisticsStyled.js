@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { space, color, layout } from 'styled-system';
-import { getRandomHexColor } from 'utils/randomColor';
 export const Title = styled.h2`
   font-size: 16px;
   text-align: center;

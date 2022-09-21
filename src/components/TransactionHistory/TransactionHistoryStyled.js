@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { space, color, layout } from 'styled-system';
 export const TableHead = styled.thead`
   background-color: rgb(19, 171, 182);
 `;
