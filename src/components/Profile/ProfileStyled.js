@@ -15,7 +15,7 @@ export const UserContainer = styled.div`
 export const StatsContainer = styled.ul`
   display: flex;
   justify-content: space-around;
-  font-size 8px;
+  font-size: 8px;
   padding: 0;
 `;
 export const StatsItem = styled.li`
